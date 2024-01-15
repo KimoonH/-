@@ -1,0 +1,37 @@
+html{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'arial' ,'Nanum gothic';
+}
+
+.first-line{
+    border-bottom: 1px solid black;
+}
+
+.second-line a{
+    color: black;
+    text-decoration: none;
+}
+
+.third-line{
+    display: none;
+}
+
+@media screen and (max-width:48rem){
+    .first-line{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem){
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width:48rem){
+    .third-line{
+        display: block;
+    }
+}
